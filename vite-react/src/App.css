@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bungee+Spice&family=Luckiest+Guy&family=Sixtyfour&display=swap');
+
+#root {
+  width: 100%;
+  background-color: #F0F5F5;
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 150px;
+  width: 100%;
+  font-size: 1.3rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.top-right {
+  display: flex;
+}
+
+.top-left {
+  display: flex;
+  padding: 0.5rem;
+  align-items: center;
+  color: rgb(7, 7, 90);
+}
+
+.top-right a {
+  margin: 0.8rem;
+  text-decoration: none;
+  color: black;
+}
+
+.top-right a:hover {
+  color: #969a9b;
+}
+
+.top-left img {
+  margin: 0.8rem;
+  width: 150px;
+  height: 150px;
+}
+
+.top-left div {
+  margin: 1rem;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f0f5f5;
+  height: 700px;
+  width: 70%;
+}
+
+.main-left {
+  width: 50%;
+}
+
+.main-right {
+  width: 50%;
+}
+
+
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f8f9fa;
+  background-image: url(https://cdn.discordapp.com/attachments/1159436956493680671/1210511371129856030/landscape-8566451_1920.jpg?ex=65ead391&is=65d85e91&hm=d374a5f08a5b7635154aef0845b868cbbb6c105fd78effcbb22f0a0102c14f88&);
+  width: 60%;
+  background-position-y: 800px;
+  background-position-x: 0px;
+  height: 500px;
+  border-radius: 2.5rem;
+}
+
+.text {
+  margin: 35px 0px;
+  color:  white !important;
+}
+
+.about-heading {
+  font-size: 3.5rem;
+  background: linear-gradient(to right, #342ee6, #cd1f8c);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  
+}
+
+.text2 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.main-button {
+  padding: 1rem;
+  border: none;
+  margin: 40px 20px;
+  background-color: darkslategray;
+  font-size: 1.15rem;
+  border-radius: 15px;
+}
+
+.main-button:hover {
+  background-color: rgb(32, 54, 54);
+}
+
+.main-p {
+  font-size: 2rem;
+  width: 50%;
+  letter-spacing: 1px;
+  line-height: 35px;
+  font-family: "Arimo", sans-serif;
+  font-weight: bolder;
+  line-height: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.social-links a {
+  margin: 0rem 1.5rem;
+  color: #ffffff; /* Logoların rengini beyaz yapmak için */
+}
+
+.social-links svg {
+  width: 30px; /* Logoların boyutunu eşitlemek için */
+  height: 30px; /* Logoların boyutunu eşitlemek için */
+}
+.nav-heading {
+  color: #2332f3;
+}
+
+.uretken {
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.footer {
+  width: 70%;
+  height: 50px;
+}
+
+.copyright {
+  position: relative;
+  top: 25px;
+  font-size: 1.15rem;
+  font-family: "Arimo", sans-serif;
+}
